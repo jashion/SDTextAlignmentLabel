@@ -7,15 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9E2CE87D1F599B3500830DC8 /* UIButton+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E2CE87C1F599B3500830DC8 /* UIButton+Extension.m */; };
 		9E6FB0041F5701C400275635 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E6FB0031F5701C400275635 /* main.m */; };
 		9E6FB0071F5701C400275635 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E6FB0061F5701C400275635 /* AppDelegate.m */; };
 		9E6FB00A1F5701C400275635 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E6FB0091F5701C400275635 /* ViewController.m */; };
 		9E6FB00D1F5701C400275635 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E6FB00B1F5701C400275635 /* Main.storyboard */; };
 		9E6FB00F1F5701C400275635 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E6FB00E1F5701C400275635 /* Assets.xcassets */; };
 		9E6FB0121F5701C400275635 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E6FB0101F5701C400275635 /* LaunchScreen.storyboard */; };
+		9E6FB01D1F5705FE00275635 /* UILabel+SDTextAlignmentExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E6FB01C1F5705FE00275635 /* UILabel+SDTextAlignmentExtension.m */; };
+		9E6FB0201F57061800275635 /* SDTextAlignmentLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E6FB01F1F57061800275635 /* SDTextAlignmentLabel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9E2CE87B1F599B3500830DC8 /* UIButton+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Extension.h"; sourceTree = "<group>"; };
+		9E2CE87C1F599B3500830DC8 /* UIButton+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Extension.m"; sourceTree = "<group>"; };
 		9E6FAFFF1F5701C400275635 /* SDTextAlignmentLabel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SDTextAlignmentLabel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E6FB0031F5701C400275635 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9E6FB0051F5701C400275635 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +31,11 @@
 		9E6FB00E1F5701C400275635 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9E6FB0111F5701C400275635 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9E6FB0131F5701C400275635 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9E6FB0191F5705A500275635 /* SDTextAlignmentHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDTextAlignmentHeader.h; sourceTree = "<group>"; };
+		9E6FB01B1F5705FE00275635 /* UILabel+SDTextAlignmentExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+SDTextAlignmentExtension.h"; sourceTree = "<group>"; };
+		9E6FB01C1F5705FE00275635 /* UILabel+SDTextAlignmentExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+SDTextAlignmentExtension.m"; sourceTree = "<group>"; };
+		9E6FB01E1F57061800275635 /* SDTextAlignmentLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDTextAlignmentLabel.h; sourceTree = "<group>"; };
+		9E6FB01F1F57061800275635 /* SDTextAlignmentLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDTextAlignmentLabel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +68,7 @@
 		9E6FB0011F5701C400275635 /* SDTextAlignmentLabel */ = {
 			isa = PBXGroup;
 			children = (
+				9E6FB01A1F5705BF00275635 /* Class */,
 				9E6FB0051F5701C400275635 /* AppDelegate.h */,
 				9E6FB0061F5701C400275635 /* AppDelegate.m */,
 				9E6FB0081F5701C400275635 /* ViewController.h */,
@@ -67,6 +78,7 @@
 				9E6FB0101F5701C400275635 /* LaunchScreen.storyboard */,
 				9E6FB0131F5701C400275635 /* Info.plist */,
 				9E6FB0021F5701C400275635 /* Supporting Files */,
+				9E6FB0191F5705A500275635 /* SDTextAlignmentHeader.h */,
 			);
 			path = SDTextAlignmentLabel;
 			sourceTree = "<group>";
@@ -77,6 +89,19 @@
 				9E6FB0031F5701C400275635 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9E6FB01A1F5705BF00275635 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				9E6FB01B1F5705FE00275635 /* UILabel+SDTextAlignmentExtension.h */,
+				9E6FB01C1F5705FE00275635 /* UILabel+SDTextAlignmentExtension.m */,
+				9E6FB01E1F57061800275635 /* SDTextAlignmentLabel.h */,
+				9E6FB01F1F57061800275635 /* SDTextAlignmentLabel.m */,
+				9E2CE87B1F599B3500830DC8 /* UIButton+Extension.h */,
+				9E2CE87C1F599B3500830DC8 /* UIButton+Extension.m */,
+			);
+			name = Class;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,7 +176,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				9E6FB00A1F5701C400275635 /* ViewController.m in Sources */,
+				9E2CE87D1F599B3500830DC8 /* UIButton+Extension.m in Sources */,
 				9E6FB0071F5701C400275635 /* AppDelegate.m in Sources */,
+				9E6FB0201F57061800275635 /* SDTextAlignmentLabel.m in Sources */,
+				9E6FB01D1F5705FE00275635 /* UILabel+SDTextAlignmentExtension.m in Sources */,
 				9E6FB0041F5701C400275635 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -311,6 +339,7 @@
 				9E6FB0181F5701C400275635 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
